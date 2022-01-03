@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>tutorial bratme</title>
+</head>
+
+<body>
+
+    <a href="html5gluposti.html" targer=_blank>ela tuka sushto</a>
+    <!--headings bro-->
+    <h1>tova e heading nomer 1</h1>
+    <h2>tova e vtori heading</h2>
+
+    <!--paragrafi(btw a hrefa e za link, target se polzwa za da ne se zatvarq saita, a da se otvori linka na nov tab)-->
+    <p>
+        Lorem ipsum dolor, sit <strong> amet consectetur </strong> <em>adipisicing</em> elit. Cumque, aliquam!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet <a href="https://youtube.com" target="_blank"> consectetur</a> adipisicing elit.
+        Placeat, facilis velit!
+    </p>
+    <!--Lists, te sa unordered(izpolzvat se za website navigation) i ordered-->
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+    </ul>
+
+    <ol>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+    </ol>
+
+    <!--Table(tr e table roll, td e table data, th e table header)-->
+    <table>
+        <thead>
+            <tr>
+                <th>Ime</th>
+                <th>email</th>
+                <th>Godini</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Imeto Nanqkoi</td>
+                <td>imetonanqkoi@gmail.com</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Pesho Peshov</td>
+                <td>pesho@gmail.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Imeto mi</td>
+                <td>imetomi@gmail.com</td>
+                <td>27</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <!--hr=horizontal rule aka pravi liniq-->
+    <hr>
+    <br>
+    <!--Forms, placeholder e god-->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+        <!-- works without value idk why-->
+    </form>
+
+    <!--Button-->
+    <button>Click me</button>
+
+    <br>
+
+    <!--Image, alt e ako ne nameri snimkata da izpishe kakuvto text sme zadali-->
+    <a href="images/download.jpg">
+        <img src="images/download.jpg" alt="My Sample Image" width="200">
+    </a>
+
+    <!--Quotations, abbr e za abbriviation-->
+    <blockquote cite="wikipedia.org">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit cumque accusantium cum temporibus? Ex saepe
+        quidem earum? Molestias vitae, fuga sit voluptatibus placeat molestiae maxime, tenetur in consequatur cumque
+        assumenda.
+    </blockquote>
+
+    <p><abbr title="Rocket League">RL</abbr>e unikalna igra</p>
+
+    <p> <cite>na tr1pl3 saita</cite> ot nego kekw</p>
+</body>
+
+</html>
